@@ -1,0 +1,78 @@
+Sub InsertImageByFilename()
+    ' prerequisite: column with filename selected
+    Application.ScreenUpdating = False ' switch off animations for user
+
+    Dim pic As String ' file path of a picture
+    Dim cl As Range
+    
+    For Each cl In Selection
+        pic = cl.Value
+        pic = ".\pics\" & pic & ".jpg" ' pictures are in .\pics folder, all with .jpg extension
+        If IsFile(pic) Then
+            Set myPicture = ActiveSheet.Shapes.AddPicture(Filename:=pic, linktofile:=msoFalse, savewithdocument:=msoCTrue, Left:=0, Top:=0, Width:=-1, Height:=-1)
+            With myPicture ' Setting picture properties
+                .LockAspectRatio = msoTrue ' Keep aspect ratio
+                .Width = cl.Offset(0, 1).Width - 4 ' width in priority
+                ' if height doesn't fit - correct it
+                If (.Height > cl.Offset(0, 1).Height - 4) Then .Height = cl.Offset(0, 1).Height - 4
+                .Top = cl.Offset(0, 1).Top + (cl.Offset(0, 1).Height - .Height) / 2
+                .Left = cl.Offset(0, 1).Left + (cl.Offset(0, 1).Width - .Width) / 2
+                .Placement = xlMoveAndSize
+            End With
+        End If
+    Next
+    
+    Set myPicture = Nothing
+    Application.ScreenUpdating = True
+
+End Sub
+
+Sub InsertImageByFilename_asComment()
+    ' prerequisite: column with filename selected
+    Application.ScreenUpdating = False ' switch off animations for user
+
+    Dim pic As String ' File path of a picture
+    Dim cl As Range
+    Dim imgWidth, imgHeigt As Integer
+    Dim imgAspect
+    Dim MaxWidth
+    MaxWidth = 150  ' a reasonale width of a picture in comment
+                    ' feel free to correct :)
+    
+    For Each cl In Selection
+        pic = cl.Value
+        pic = ".\pics\" & pic & ".jpg" ' pictures are in .\pics folder, all with .jpg extension
+        If IsFile(pic) Then
+            Set myPicture = cl.Offset(0, 1).Parent.Pictures.Insert(pic)
+            With myPicture ' need to remember picture dimensions for further corrections
+                .ShapeRange.LockAspectRatio = msoTrue ' Keep aspect ratio
+                imgWidth = .Width
+                imgHeigt = .Height
+                imgAspect = imgWidth / imgHeigt
+                .Delete
+            End With
+            Set myPicture = Nothing
+            With cl.Offset(0, 1)
+                .AddComment
+                .Comment.Visible = False
+                .Comment.Shape.Fill.UserPicture pic
+                .Comment.Shape.Width = MaxWidth
+                .Comment.Shape.Height = MaxWidth / imgAspect
+            End With
+        End If
+    Next
+    
+    Set myPicture = Nothing
+    Application.ScreenUpdating = True
+
+End Sub
+
+
+' aux funtion
+Function IsFile(ByVal fName As String) As Boolean
+'Returns TRUE if the provided name points to an existing file.
+'Returns FALSE if not existing, or if it's a folder
+    On Error Resume Next
+    IsFile = ((GetAttr(fName) And vbDirectory) <> vbDirectory)
+End Function
+
