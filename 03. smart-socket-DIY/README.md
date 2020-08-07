@@ -1,6 +1,6 @@
 # Smart-socket-DIY
 just ESP8266-enabled socket to control power in timely manner from mobile and/or MQTT service.
-Main usage: switch on/off a plant lamp in set hours.
+Main usage: switch on/off a plant growth lamp in the set hours.
 
 Credits to Pieter P, https://tttapa.github.io/ for his amazing ESP8266 guide.
 
