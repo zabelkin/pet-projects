@@ -16,21 +16,21 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
 + servers: cloudmqtt.com to publish/subscribe to IoT values, stratum2.ru for real-time requests
 
 ## Outcome:
-<table style="width:100%;">
+<table style="width:100%;table-layout:fixed">
   <tr>
     <th>device</th>
     <th>mobile screenshot</th>
     <th>implementation</th>
   </tr>
   <tr>
-    <td style="width:40%">
+    <td>
       <img src="./img/device.jpg" alt="device">
     </td>
-    <td style="width:30%">
+    <td>
       <img src="./img/mobile.jpg" alt="mobile screenshot">
     </td>
-    <td style="width:30%">
-      <img src="./img/implementation.jpg" alt="implementation">
+    <td>
+      <img src="./img/implementation.jpg" alt="implementation"  style="width:30%">
     </td>
   </tr>
 </table>
