@@ -16,10 +16,6 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
 + servers: cloudmqtt.com to publish/subscribe to IoT values, stratum2.ru for real-time requests
 
 ## Outcome:
-+ Device: https://photos.app.goo.gl/pQNWRz8XmG4PF3Zt6 
-+ Mobile screenshots: https://photos.app.goo.gl/pBZhv4x3zJHanh3n9 
-+ Implementation :) https://photos.app.goo.gl/FTJjLZrDvb7quNfu9 
-
 <table style="width:100%">
   <tr>
     <th>device</th>
@@ -28,9 +24,13 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
   </tr>
   <tr>
     <td>
-      <img src="./img/device.jpg" alt="1" style="width:360px;height:360px;"
+      <img src="./img/device.jpg" alt="device" style="width:360px;height:360px;"
     </td>
-    <td>![alt text](img/mobile.jpg?raw=true "mobile screenshort")</td>
-    <td>![alt text](img/implementation.jpg?raw=true "implementation")</td>
+    <td>
+      <img src="./img/mobile.jpg" alt="mobile screenshot" style="width:360px;height:360px;"
+    </td>
+    <td>
+      <img src="./img/implementation.jpg" alt="implementation" style="width:360px;height:360px;"
+    </td>
   </tr>
 </table>
