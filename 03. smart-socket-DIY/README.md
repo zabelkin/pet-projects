@@ -30,7 +30,7 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
       <img src="./img/mobile.jpg" alt="mobile screenshot" style="width:auto;height:auto;"
     </td>
     <td>
-      <img src="./img/implementation.jpg" alt="implementation" style="width:50%;height:auto;"
+      <img src="./img/implementation.jpg" alt="implementation" style="width:25%;height:auto;"
     </td>
   </tr>
 </table>
