@@ -16,7 +16,7 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
 + servers: cloudmqtt.com to publish/subscribe to IoT values, stratum2.ru for real-time requests
 
 ## Outcome:
-<table style="table-layout:fixed;width:100%;">
+<table style="width:100%;">
   <tr>
     <th>device</th>
     <th>mobile screenshot</th>
