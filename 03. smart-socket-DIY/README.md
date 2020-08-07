@@ -24,13 +24,13 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
   </tr>
   <tr>
     <td>
-      <img src="./img/device.jpg" alt="device" style="width:360px;height:360px;"
+      <img src="./img/device.jpg" alt="device" style="width:auto;height:auto;"
     </td>
     <td>
-      <img src="./img/mobile.jpg" alt="mobile screenshot" style="width:360px;height:360px;"
+      <img src="./img/mobile.jpg" alt="mobile screenshot" style="width:auto;height:auto;"
     </td>
     <td>
-      <img src="./img/implementation.jpg" alt="implementation" style="width:360px;height:360px;"
+      <img src="./img/implementation.jpg" alt="implementation" style="width:auto;height:auto;"
     </td>
   </tr>
 </table>
