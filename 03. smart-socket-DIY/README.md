@@ -27,8 +27,8 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
     <th>implementation</th>
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
+    <td>![Alt text](img/device.jpg?raw=true "device")</td>
+    <td>![Alt text](img/mobile.jpg?raw=true "mobile screenshort")</td>
+    <td>![Alt text](img/implementation.jpg?raw=true "implementation")</td>
   </tr>
 </table>
