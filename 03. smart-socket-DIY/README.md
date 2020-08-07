@@ -20,8 +20,6 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
 + Mobile screenshots: https://photos.app.goo.gl/pBZhv4x3zJHanh3n9 
 + Implementation :) https://photos.app.goo.gl/FTJjLZrDvb7quNfu9 
 
-![alt text](img/device.jpg?raw=true)
-
 <table style="width:100%">
   <tr>
     <th>device</th>
@@ -29,7 +27,9 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
     <th>implementation</th>
   </tr>
   <tr>
-    <td>![alt text](img/device.jpg?raw=true)</td>
+    <td>
+      ![alt text](img/device.jpg?raw=true)
+    </td>
     <td>![alt text](img/mobile.jpg?raw=true "mobile screenshort")</td>
     <td>![alt text](img/implementation.jpg?raw=true "implementation")</td>
   </tr>
