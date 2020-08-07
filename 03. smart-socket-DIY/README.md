@@ -28,7 +28,7 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
   </tr>
   <tr>
     <td>
-      ![alt text](img/device.jpg?raw=true)
+      <img src="./img/device.png" alt="1" width = 360px height = 640px>
     </td>
     <td>![alt text](img/mobile.jpg?raw=true "mobile screenshort")</td>
     <td>![alt text](img/implementation.jpg?raw=true "implementation")</td>
