@@ -19,3 +19,16 @@ _For schematics one could check https://easyeda.com/zabelkin/esp-socket
 + Device: https://photos.app.goo.gl/pQNWRz8XmG4PF3Zt6 
 + Mobile screenshots: https://photos.app.goo.gl/pBZhv4x3zJHanh3n9 
 + Implementation :) https://photos.app.goo.gl/FTJjLZrDvb7quNfu9 
+
+<table style="width:100%">
+  <tr>
+    <th>device</th>
+    <th>mobile screenshot</th>
+    <th>implementation</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
