@@ -8,6 +8,6 @@ Mobile-optimized version:
 https://datastudio.google.com/s/hs7z_B7UTyI
 
 Illustration
-<div style="width:30%; border-style: solid; border-color: gray;>
+<div style="width:30%; border-style: solid; border-color: gray;">
   <img src="Screenshot.jpg" alt="combo!">
 </div>
