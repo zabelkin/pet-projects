@@ -8,4 +8,4 @@ Mobile-optimized version:
 https://datastudio.google.com/s/hs7z_B7UTyI
 
 Illustration
-<img src="Screenshot.jpg" alt="combo!">
+<img src="Screenshot.jpg" alt="combo!" style="width:50%">
