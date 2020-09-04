@@ -9,5 +9,5 @@ https://datastudio.google.com/s/hs7z_B7UTyI
 
 Illustration
 <div style="border-style: solid; border-color: gray;">
-  <img src="Screenshot.jpg" alt="combo!" style="height:300px; width:30%;">
+  <img src="Screenshot.jpg" alt="combo!" style="max-height:300px; width:auto;">
 </div>
