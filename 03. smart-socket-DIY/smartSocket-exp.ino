@@ -58,7 +58,7 @@ inline int getHours(uint32_t UNIXTime)
 /*
 * setup code
 */
-0void setup()
+void setup()
 {
   Serial.begin(115200);
   Serial.print("\n\nConnecting to ");
